@@ -13,7 +13,6 @@ const eventsContainer = document.getElementById('events')
 
 // Get Form HTML element by the html id
 const addEventForm = document.getElementById('edit')
-addEventForm.
 
 /* 
 -----Fetch------- 
