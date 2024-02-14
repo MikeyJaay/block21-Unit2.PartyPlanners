@@ -1,0 +1,10 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.events-container {
+    border: 1px solid;
+    padding: 10px;
+    margin: 20px;
+    
+}
