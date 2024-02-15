@@ -1,49 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <script defer src="script.js"></script>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events List</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body id="events">
-    <h1>Test</h1>
-
-
-
-    
-    <container id="form-container">
-        <form id="edit">
-            <label>
-                ID:
-                <input type="text" name="id">
-            </label>
-            <label for="">
-                Name:
-                <input type="text" name="name">
-            </label>
-            <label>
-                Decscription:
-                <input type="text" name="decscriptions">
-            </label>
-            <label>
-                <!-- Input type will have to change from "text" to "date" or "datetime-local"  -->
-                Date:
-                <input type="text" name="dates"> 
-            </label>
-            <label>
-                Location:
-                <input type="text" name="locations">
-            </label>
-            <button type = 'submit'>Update</button>
-        </form>
-    </container>
-
-    <container id="events-container">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis nesciunt ullam dolor repellat id ipsum, debitis qui quisquam ducimus delectus aperiam minus, expedita at nostrum optio facere, vero provident tempore?</p>
-    </container>
-
-    
-</body>
-</html> 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parties</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form id="addParties">
+      <h1>Add party</h1>
+      <label>Name: </label><input name="name" /> <label>Date:</label
+      ><input type="datetime-local" name="date" /> <label>Location: </label
+      ><input name="location" /> <label>Description: </label
+      ><input name="description" />
+      <button type="submit">Add party</button>
+    </form>
+    <ul id="parties"></ul>
+  </body>
+</html>
